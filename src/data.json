@@ -1,0 +1,312 @@
+{
+    "title": "分享带货",
+    "subtitle": "成功即得1000积分，新用户再送￥50代金券",
+    "initiatorAvatar": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTI8drrAaWByj3ZhbKx38NdLSs9hricdysaoJ52QwiauRkevh4K5ZtM5nASMzicFWvNaqTV0QNf0yBzYA/132",
+    "initiatorNickName": "李晨云_BY79it",
+    "available": false,
+    "orderItem": {
+        "id": "SKU-FBB_19v5-6cc8d6d89be008f2",
+        "sku": {
+            "id": "6cc8d6d89be008f2",
+            "merchantId": "4f991fd3-e0a5-5494-e315-fa29bc6584d3",
+            "mid": "FBB_19v5-B",
+            "productId": "FBB_19v5",
+            "name": "Beyond Discovery Box V5 (Pat McGrath) ",
+            "nameCN": "别样wow宝盒 x Pat McGrath收藏版色号：Flesh (限量青瓷外壳收藏版)",
+            "brand": "",
+            "officialURL": "https://baleen-cdn.bybieyang.com/static/html/update_app.html",
+            "cents": 4288,
+            "originalCents": 6600,
+            "onHand": 0,
+            "size": {
+                "ids": [],
+                "name": "Flesh 3 (限量玛瑙外壳收藏版)"
+            },
+            "attributes": {},
+            "images": [
+                {
+                    "id": "91104c61-5d7c-4724-a9ff-58cd58a74813",
+                    "full": {
+                        "url": "http://5thave-img-dev-cdn-g.bybieyang.com/pf/91104c61-5d7c-4724-a9ff-58cd58a74813.jpg",
+                        "width": 1080,
+                        "height": 860,
+                        "format": "jpg"
+                    },
+                    "thumbnail": {
+                        "url": "http://5thave-img-dev-cdn-g.bybieyang.com/pt/91104c61-5d7c-4724-a9ff-58cd58a74813.jpg",
+                        "width": 1080,
+                        "height": 860,
+                        "format": "jpg"
+                    },
+                    "blob": 1
+                },
+                {
+                    "id": "6372fd13-1782-4d17-94dd-e154fb3a17c7",
+                    "full": {
+                        "url": "http://5thave-img-dev-cdn-g.bybieyang.com/pf/6372fd13-1782-4d17-94dd-e154fb3a17c7.jpg",
+                        "width": 1000,
+                        "height": 1000,
+                        "format": "jpg"
+                    },
+                    "thumbnail": {
+                        "url": "http://5thave-img-dev-cdn-g.bybieyang.com/pt/6372fd13-1782-4d17-94dd-e154fb3a17c7.jpg",
+                        "width": 1000,
+                        "height": 1000,
+                        "format": "jpg"
+                    },
+                    "blob": 1
+                },
+                {
+                    "id": "59098b00-44db-4051-aeb0-d15964d674c1",
+                    "full": {
+                        "url": "http://5thave-img-dev-cdn-g.bybieyang.com/pf/59098b00-44db-4051-aeb0-d15964d674c1.jpg",
+                        "width": 1000,
+                        "height": 1000,
+                        "format": "jpg"
+                    },
+                    "thumbnail": {
+                        "url": "http://5thave-img-dev-cdn-g.bybieyang.com/pt/59098b00-44db-4051-aeb0-d15964d674c1.jpg",
+                        "width": 1000,
+                        "height": 1000,
+                        "format": "jpg"
+                    },
+                    "blob": 1
+                },
+                {
+                    "id": "31832336-6d5f-4b2e-93e8-cbd059c313ec",
+                    "full": {
+                        "url": "http://5thave-img-dev-cdn-g.bybieyang.com/pf/31832336-6d5f-4b2e-93e8-cbd059c313ec.jpg",
+                        "width": 1000,
+                        "height": 1000,
+                        "format": "jpg"
+                    },
+                    "thumbnail": {
+                        "url": "http://5thave-img-dev-cdn-g.bybieyang.com/pt/31832336-6d5f-4b2e-93e8-cbd059c313ec.jpg",
+                        "width": 1000,
+                        "height": 1000,
+                        "format": "jpg"
+                    },
+                    "blob": 1
+                },
+                {
+                    "id": "0b207f53-28ae-452d-a815-de573e7f3220",
+                    "full": {
+                        "url": "http://5thave-img-dev-cdn-g.bybieyang.com/pf/0b207f53-28ae-452d-a815-de573e7f3220.jpg",
+                        "width": 1000,
+                        "height": 1000,
+                        "format": "jpg"
+                    },
+                    "thumbnail": {
+                        "url": "http://5thave-img-dev-cdn-g.bybieyang.com/pt/0b207f53-28ae-452d-a815-de573e7f3220.jpg",
+                        "width": 1000,
+                        "height": 1000,
+                        "format": "jpg"
+                    },
+                    "blob": 1
+                },
+                {
+                    "id": "5a667dab-b937-4e26-a0fd-4a0831f3496c",
+                    "full": {
+                        "url": "http://5thave-img-dev-cdn-g.bybieyang.com/pf/5a667dab-b937-4e26-a0fd-4a0831f3496c.jpg",
+                        "width": 1000,
+                        "height": 1000,
+                        "format": "jpg"
+                    },
+                    "thumbnail": {
+                        "url": "http://5thave-img-dev-cdn-g.bybieyang.com/pt/5a667dab-b937-4e26-a0fd-4a0831f3496c.jpg",
+                        "width": 1000,
+                        "height": 1000,
+                        "format": "jpg"
+                    },
+                    "blob": 1
+                }
+            ]
+        },
+        "quantity": 2,
+        "cents": 8576,
+        "originalCents": 13200,
+        "merchantValue": [
+            4288,
+            4288
+        ],
+        "initialUnitCents": 4288,
+        "finalCents": 0,
+        "availability": "AVAILABLE",
+        "categoryIds": [
+            "5"
+        ],
+        "excludedFromOrder": false,
+        "sunshineCustomEligible": {
+            "set": false,
+            "deepLink": "bieyang:///wvp?link=aHR0cHM6Ly9iYWxlZW4tZGV2LWNkbi1nLmJ5YmlleWFuZy5jb20vc3RhdGljL2h0bWwvbG9naXN0aWNzX2RldGFpbHMuaHRtbD92PTE%3D&title=%E4%BE%BF%E6%8D%B7%E7%9B%B4%E9%82%AE%E9%A2%84%E6%94%B6%E5%85%B3%E7%A8%8E"
+        },
+        "restrictedToHkPickup": {
+            "set": false
+        },
+        "financeDetail": {
+            "processingFee": [],
+            "skuValue": [
+                4288,
+                4288
+            ],
+            "beyondDiscount": [
+                0,
+                0
+            ],
+            "increaseForwardingCent": [],
+            "commission": [],
+            "merchantRewards": [],
+            "coMarketing": []
+        },
+        "miscInfoField": {
+            "extraDutyCharge": [
+                358,
+                358
+            ]
+        },
+        "tradingStatus": [
+            "GOODS_TRADING_FAILURE",
+            "GOODS_TRADING_FAILURE"
+        ],
+        "trace": {
+            "stack": [
+                "{\"tabName\":\"美护\",\"pageName\":\"热卖榜单\"}"
+            ],
+            "userActionPath": {
+                "nodes": [],
+                "entityIndexes": [
+                    1,
+                    8
+                ],
+                "entityIds": [
+                    "atg:0",
+                    "pro:FBB_19v5"
+                ],
+                "nodesV2": [
+                    "DISPLAY_LOCATION_HOMEPAGE_WIDGET",
+                    "DL_AL",
+                    "DL_GC",
+                    "DL_GCHV",
+                    "DL_PSL",
+                    "DL_HTP",
+                    "DL_XBPC",
+                    "DL_PSL",
+                    "DL_PDSPU"
+                ]
+            },
+            "timestamp": 1575964261514
+        },
+        "initialUnitFens": 28306
+    },
+    "influentialSharingInfos": [
+        {
+            "avatar": "http://5thave-img-dev-cdn-g.bybieyang.com/img/avatarf/8173509e-7d4b-4056-ab03-f0e6624ae9d1",
+            "nickName": "Vida mía",
+            "description": "订单已取消",
+            "reward": {
+                "text": "奖励取消",
+                "color": "#333333",
+                "fontSize": 24,
+                "fontWeight": "REGULAR"
+            },
+            "createAt": 1609832994657
+        },
+        {
+            "avatar": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJfTWEjEXibe7hAeP46lKfbT0EmxB5evU4F6k4BasCibXCNon9tj32mLJLvpMF2dkqhuenhFbicx5icWg/132",
+            "nickName": "simple",
+            "description": "打开了你的分享",
+            "reward": {
+                "text": "+1",
+                "color": "#D27D3F",
+                "fontSize": 24,
+                "fontWeight": "REGULAR"
+            },
+            "createAt": 1608708302142
+        },
+        {
+            "avatar": "https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIl2punlPic9VVWUOSfn1cLQkvQv3bEibgNE9C0YmHhIV5u5UV495fo1s1lYiaKIeKV4icymiaojGFtxjg/132",
+            "nickName": "    ",
+            "description": "将商品加入购物袋",
+            "reward": {
+                "text": "+2",
+                "color": "#D27D3F",
+                "fontSize": 24,
+                "fontWeight": "REGULAR"
+            },
+            "createAt": 1608708284197
+        },
+        {
+            "avatar": "https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIl2punlPic9VVWUOSfn1cLQkvQv3bEibgNE9C0YmHhIV5u5UV495fo1s1lYiaKIeKV4icymiaojGFtxjg/132",
+            "nickName": "    ",
+            "description": "打开了你的分享",
+            "reward": {
+                "text": "+1",
+                "color": "#D27D3F",
+                "fontSize": 24,
+                "fontWeight": "REGULAR"
+            },
+            "createAt": 1608708280870
+        },
+        {
+            "avatar": "https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIl2punlPic9VVWUOSfn1cLQkvQv3bEibgNE9C0YmHhIV5u5UV495fo1s1lYiaKIeKV4icymiaojGFtxjg/132",
+            "nickName": "    ",
+            "description": "将商品加入购物袋",
+            "reward": {
+                "text": "+2",
+                "color": "#D27D3F",
+                "fontSize": 24,
+                "fontWeight": "REGULAR"
+            },
+            "createAt": 1608708256434
+        },
+        {
+            "avatar": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJfTWEjEXibe7hAeP46lKfbT0EmxB5evU4F6k4BasCibXCNon9tj32mLJLvpMF2dkqhuenhFbicx5icWg/132",
+            "nickName": "simple_BY27Sg",
+            "description": "将商品加入购物袋",
+            "reward": {
+                "text": "+2",
+                "color": "#D27D3F",
+                "fontSize": 24,
+                "fontWeight": "REGULAR"
+            },
+            "createAt": 1608703744967
+        },
+        {
+            "avatar": "http://5thave-img-dev-cdn-g.bybieyang.com/img/app/avatar/default_avatar_version_2.png",
+            "nickName": "匿名用户",
+            "description": "将商品加入购物袋",
+            "reward": {
+                "text": "+2",
+                "color": "#D27D3F",
+                "fontSize": 24,
+                "fontWeight": "REGULAR"
+            },
+            "createAt": 1608702188607
+        },
+        {
+            "avatar": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJfTWEjEXibe7hAeP46lKfbT0EmxB5evU4F6k4BasCibXCNon9tj32mLJLvpMF2dkqhuenhFbicx5icWg/132",
+            "nickName": "simple_BY27Sg",
+            "description": "打开了你的分享",
+            "reward": {
+                "text": "+1",
+                "color": "#D27D3F",
+                "fontSize": 24,
+                "fontWeight": "REGULAR"
+            },
+            "createAt": 1608702134130
+        },
+        {
+            "avatar": "http://5thave-img-dev-cdn-g.bybieyang.com/img/app/revl/default_avatar.png",
+            "nickName": "chenyun_BY64kX",
+            "description": "打开了你的分享",
+            "reward": {
+                "text": "+1",
+                "color": "#D27D3F",
+                "fontSize": 24,
+                "fontWeight": "REGULAR"
+            },
+            "createAt": 1608634974455
+        }
+    ],
+    "total": 9
+}
