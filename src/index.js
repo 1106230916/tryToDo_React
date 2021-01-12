@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import ic_wechat_white from "./assets/ic_wechat_white.png"
 
 // import bg01 from "./assets/img_bgshare@2x.png";
 // style={{
@@ -37,14 +38,17 @@ class Header extends React.Component {
           <div className="rules">规则</div>
         </div>
         <div className="bottom">
-          <div className="title">
-            {data.title}
+          <div className="right"></div>
+          <div>
+            <div className="title">
+              {data.title}
+            </div>
+            <div className="subtitle">
+              {data.subtitle}
+            </div>
           </div>
-          <div className="subtitle">
-            {data.subtitle}
-          </div>
+          
         </div>
-        <div className="right"></div>
       </div>
     )
   }
@@ -111,7 +115,10 @@ class Footer extends React.Component {
   render () {
     return (
       <div className="footer">
-        
+        <div className="share_button">
+          <img src={ic_wechat_white} alt=""/>
+          <p>分享给好友</p>
+        </div>
       </div>
     )
   }
