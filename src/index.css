@@ -12,6 +12,7 @@ body {
   font-family: PingFangSC-Regular;
   margin: 0;
   padding: 0;
+  letter-spacing: 0;
 }
 
 html, #root{
@@ -38,7 +39,12 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.6rem 0.24rem 0 0.24rem;
+  padding: 0.6rem 0.24rem 0.2rem 0.24rem;
+  background: url("./assets/img_bgshare@2x.png") no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 999;
 }
 
 .header .top .return {
@@ -63,7 +69,7 @@ code {
   font-family: PingFangSC-Semibold;
   font-size: 0.56rem;
   margin-left: 0.32rem;
-  margin-top: 0.53rem;
+  padding-top: 1.61rem;
 }
 
 .header .bottom .subtitle {
@@ -137,9 +143,8 @@ code {
 .content .content_bottom {
   width: 100%;
   display: flex;
-  height: 8.56rem;
   flex-direction: column;
-  overflow-y: auto;
+  padding-bottom: 1.6rem;
 }
 
 .influentialSharingInfos {
@@ -169,6 +174,10 @@ code {
   margin: 0 0 0.04rem 0;
 }
 
+.influentialSharingInfos .infos .nickName {
+  font-size: 0.24rem;
+}
+
 .influentialSharingInfos .infos p {
   margin: 0;
   color: #333333;
@@ -187,6 +196,14 @@ code {
 }
 
 /* Footer */
+.footer {
+  position: fixed;
+  width: -webkit-fill-available;
+  background: #FFFFFF;
+  bottom: 0;
+  z-index: 123;
+}
+
 .footer .share_button {
   background: #222222;
   height: 0.88rem;
@@ -205,7 +222,92 @@ code {
 }
 
 .footer .share_button img {
-  width: 0.377rem;
-  height: 0.318rem;
+  width: 0.4rem;
+  height: 0.4rem;
   margin: auto 0;
+}
+
+/* 活动规则 */
+.rules_show {
+  position: fixed;
+  z-index: 1001;
+  top: 0;
+  right: 0;
+  color: #000000;
+  font-size: 0.24rem;
+  height: 100%;
+  overflow-y: scroll;
+  margin-bottom: 1rem;
+}
+
+.rules_show .rules_show_cover{
+  width: 100%;
+  height: 3rem;
+  opacity: 0.4;
+  background: #000000;
+}
+
+.rules_show .rulse_show_top {
+  background: white;
+  border-radius: 30px 30px 0 0;
+  height: 1.36rem;
+  width: 100%;
+  font-size: 0.4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.rules_show .rulse_show_top p {
+  padding: 0.4rem;
+}
+
+.rules_show .rulse_show_top div {
+  background: url("./assets/ic_clo备份@2x.png");
+  background-size: 100%;
+  width: 0.37rem;
+  height: 0.37rem;
+  margin: auto 0.445rem;
+}
+
+.rules_show .rules_show_text {
+  background: #FFFFFF;
+  padding: 0 0.4rem;
+  overflow-y: scroll;
+  color: #333333;
+}
+
+.rules_show .rules_show_text p:nth-child(even) {
+  font-size: 0.28rem;
+  color: #000000;
+  margin: 0 0 0.16rem 0;
+}
+
+.rules_show .rules_show_text p:nth-child(odd) {
+  margin-bottom: 0.48rem;
+}
+
+/* 没有人分享的时候 */
+.content_bottom .influentialSharingInfos_null {
+  margin: 1rem auto auto auto;
+  text-align: center;
+}
+.content_bottom .influentialSharingInfos_null .null_img {
+  width: 2.3rem;
+  height: 2.3rem;
+  margin: auto auto;
+  background: url("./assets/img_noone@2x.png");
+  background-size: 100% 100%;
+}
+
+.content_bottom .influentialSharingInfos_null .null_text01 {
+  font-size: 0.32rem;
+  color: #333333;
+  margin-top: 0.16rem;
+}
+
+.content_bottom .influentialSharingInfos_null .null_text02 {
+  font-size: 0.24rem;
+  margin-top: 0.08rem;
+  color: #666666;
 }
