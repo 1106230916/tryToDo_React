@@ -32,7 +32,8 @@ class Header extends React.Component {
     super(props);
     const rules_show = false;
     this.state = {
-      "rules_show": rules_show 
+      "rules_show": rules_show, 
+      "rules_show_top": "100%"
     }
     this.rules_show_Change = this.rules_show_Change.bind(this);
   }
@@ -41,20 +42,32 @@ class Header extends React.Component {
     const rules_show = this.state.rules_show;
     console.log(rules_show);
     this.setState({
-      "rules_show": !rules_show
+      "rules_show": !rules_show,
+      "rules_show_top": rules_show ? "0%" : "100%"
     })
+    /** this一般指函数本身，如果需要在父函数中的子函数中使用父元素的this，可以用一个变量保存 */
+    // const this_temp = this;
+    // const promise_01 = new Promise(function(resolve, reject){
+    //   setTimeout(function(){
+    //     this_temp.setState({
+    //       "rules_show_top": "50%"
+    //     })
+    //     console.log('执行完成Promise');
+    //     resolve('要返回的数据可以任何数据例如接口返回数据');
+    //   }, 2000);
+    // })
   }
 
   render () {
     console.log(data);
-    const rules_show = this.state.rules_show;
+    const rules_show_top = this.state.rules_show_top;
     return (
       <div className="header">
         <div className="top">
           <div className="return"></div>
           <div className="rules" onClick={this.rules_show_Change}>规则</div>
-          {rules_show ?
-            <div className="rules_show">
+          {/* {rules_show ? */}
+            <div className="rules_show" style={{top: rules_show_top}}>
               <div className="rules_show_cover" onClick={this.rules_show_Change}></div>
               <div className="rulse_show_top">
                 <p>规则</p>
@@ -75,7 +88,8 @@ class Header extends React.Component {
                     分享的商品所获的带货奖励都有上限，达到数量上限之后，即使满足带货条件也无法获得奖励。
                     若使用非正常手段获取活动奖励（包括但不限于侵犯第三人合法权益、作弊、扰乱系统、实施网络攻击、批量注册、机器注册账户、用机器模拟客户端等方式），别样海外购有权撤销用户参与本活动的资格，撤销发放活动奖励并关闭相关交易订单，并将视情况对其追究法律责任。</p>
               </div>
-            </div> : null}
+            </div>
+             {/* : null} */}
         </div>
         <div className="bottom">
           <div className="right"></div>
@@ -87,7 +101,6 @@ class Header extends React.Component {
               {data.subtitle}
             </div>
           </div>
-          
         </div>
       </div>
     )
@@ -120,7 +133,7 @@ class Content extends React.Component {
           </div>
         </div>
         <div className="content_bottom">
-          {/** 测试有数据and没有数据的情况 */}
+          {/** 测试有数据and 没有数据的情况 */}
           {/* {data.influentialSharingInfos = null} */}
           {data.influentialSharingInfos !== null ? data.influentialSharingInfos.map((item, index) => {
             return (
